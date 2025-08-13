@@ -1,2 +1,2 @@
-# project_4 LAMP STACK
-University PHP project with mysql database
+# project_4
+LAMP Stack University project with PHP and mysql database
