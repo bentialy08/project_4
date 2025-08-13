@@ -1,0 +1,267 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-110501703-1"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "UA-110501703-1");
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Project 4</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      style="text/css"
+      href="bootstrap/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" style="text/css" href="mycss/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <nav
+      id="mybar"
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #086f5c"
+    >
+      <!--<a class="navbar-brand"> <img src="images/world_maps.gif" alt="neurons" style="width:30px"></a>-->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExample03"
+        aria-controls="navbarsExample03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav mr-auto">
+          <li class="navbar-header">
+            <a class="navbar-brand" href="#mybar">
+              <i class="fa fa-plug" aria-hidden="true">URBSCITY</i></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#first_row"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#forum_role">Forum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seller_role">Sell</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="http://lamp.eng.fau.edu/~bsaintju/p2/index.html"
+              >Features</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="http://example.com"
+              id="dropdown03"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Shop</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdown03">
+              <a class="dropdown-item" href="cart_index.php">Arts</a>
+              <a class="dropdown-item" href="cart_index.php">Metal Works</a>
+              <a class="dropdown-item" href="cart_index.php">Apparels</a>
+            </div>
+          </li>
+        </ul>
+        <a href="cart_index.php" class="btn btn-primary">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart
+        </a>
+      </div>
+    </nav>
+    <form class="form-inline my-2 my-md-0">
+      <gcse:search class="btn btn-success"></gcse:search>
+    </form>
+    <header>
+      <div id="first_row" class="card">
+        <img
+          class="card-img-top img-responsive"
+          src="images/beach.jpg"
+          alt="neurons"
+        />
+
+        <!--a href="cart_index.php" class="btn btn-info btn-lg">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>  Cart
+                </a-->
+      </div>
+    </header>
+
+    <!--Contents-->
+    <div class="container">
+      <div id="fourth_row" class="row">
+        <div id="buyer_role" class="col-sm-12 my-4 col-md-4 col-lg-4">
+          <div class="card">
+            <img
+              class="card-img-top img-responsive"
+              src="images/savings.jpg"
+              alt="neurons"
+            />
+            <div class="card-body">
+              <h4 class="text-center card-title">Shopping</h4>
+              <p class="text-center card-text">
+                Shop for the lastest artwork of Carrebean and Latin America
+                heritage. Each artwork comes with a story to tell you about the
+                Carribean and Latin America. You can also donote to our
+                organization.
+              </p>
+            </div>
+          </div>
+          <div class="text-center card-footer">
+            <a href="cart_index.php" class="btn btn-success">Buy Items</a>
+          </div>
+        </div>
+
+        <div id="forum_role" class="col-sm-4 my-4 lg-6">
+          <div class="card">
+            <img class="card-img-top" src="images/forum.jpg" alt="smiley" />
+            <div class="card-body">
+              <h4 class="text-center card-title">Discussion Forum</h4>
+              <p class="text-center card-text">
+                Everyone is welcome to talk about anything related to the
+                Carrebean and Latin Ameica in this forum. The Forum has gifs and
+                memes to make human interaction fun and enjoyable. Come and find
+                out about Caribbean culture
+              </p>
+            </div>
+          </div>
+          <div class="text-center card-footer">
+            <a href="login.php" class="btn btn-success">Go to Forum</a>
+          </div>
+        </div>
+
+        <div id="seller_role" class="col-sm-4 my-4 lg-6">
+          <div class="card">
+            <img class="card-img-top" src="images/wallet.jpg" alt="smiley" />
+            <div class="card-body">
+              <h4 class="text-center card-title">Sell Items</h4>
+              <p class="text-center card-text">
+                Ever feel like you have too many unwanted items? well now, you
+                can get rid of them while making money. With our website, it is
+                easy to sell items to our customers and make trash turn into
+                money.
+              </p>
+            </div>
+          </div>
+          <div class="text-center card-footer">
+            <a href="sell.html" class="btn btn-success">Sell Items</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Back To top-->
+    <div class="navLeftFooter nav-sprite-v1" id="navFooter">
+      <a href="#mybar" class="col text-center" id="navBackToTop">
+        <div class="navFooterBackToTop">
+          <span class="navFooterBackToTopText">Back to top</span>
+        </div></a
+      >
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5" style="background-color: #086f5c">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h4 class="text-white">About Us</h4>
+            <p class="text-white">
+              We are a Website that provides customers with artifacts, apparel,
+              arts, and artwork from and of the Caribbean/Latin America. There
+              is also a forum to discuss current events.<br />
+              You can also sell items with a small fee.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h5 class="text-white"></h5>
+          </div>
+          <div class="col-sm-4">
+            <h4>
+              <p class="text-orange"><a href="contact.html">Contact Us</a></p>
+            </h4>
+            <p class="text-white">
+              URBSCITY<br />
+              Bentialy Saint Julien<br />
+              bentialy@gmail.com<br />
+              561-999-4567<br />
+              999 Bourgois Rd, Boca Raton, FL.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="m-0 text-center text-secondary">
+              Copyright &copy; Urbscity 2017
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Make sure in jsFiddle you have selected option onLoad
+      (function () {
+        var cx = "017643444788069204610:4gvhea_mvga"; // Insert your own Custom Search engine ID here
+        var gcse = document.createElement("script");
+        gcse.type = "text/javascript";
+        gcse.async = true;
+        gcse.src =
+          (document.location.protocol == "https" ? "https:" : "http:") +
+          "//www.google.com/cse/cse.js?cx=" +
+          cx;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+  </body>
+</html>
