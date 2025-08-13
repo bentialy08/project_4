@@ -2,7 +2,7 @@
 $msg = "";
 if (isset($_POST['upload'])) {
 $target = "images/".basename($_FILES['image']['name']);
-$db = mysqli_connect("localhost", "bsaintju", "Zavot.1992", "bsaintju");
+$db = mysqli_connect("localhost", "bsaintju", "password123", "bsaintju");
 $image = $_FILES['image']['name'];
 $text = $_POST['text'];
 $sql = "INSERT INTO images (image, text) VALUES ('$image', '$text')";
