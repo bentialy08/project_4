@@ -2,7 +2,7 @@
   
     $server="localhost"; 
     $user="bsaintju"; 
-    $pass="Zavot.1992"; 
+    $pass="password123"; 
     $db="bsaintju"; 
       
     // connect to mysql 
